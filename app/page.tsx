@@ -8,85 +8,96 @@ export default function Home() {
           <span className="font-semibold text-slate-900 tracking-tight">
             The Brand Strategy Canvas
           </span>
-          <a
-            href="https://www.amazon.com/Brand-Strategy-Canvas-One-Page-Startups/dp/148425158X"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm font-medium text-amber-700 hover:text-amber-800 transition-colors"
-          >
-            Get the book →
-          </a>
-        </div>
-      </nav>
-
-      {/* ── HERO ── */}
-      <section className="pt-32 pb-24 px-6 bg-slate-950 text-white">
-        <div className="max-w-4xl mx-auto">
-          <div className="inline-flex items-center gap-2 text-amber-400 text-sm font-medium mb-8 tracking-wide uppercase">
-            <span className="w-8 h-px bg-amber-400"></span>
-            Published by Apress
-          </div>
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight mb-8">
-            Stop building your{' '}
-            <span className="text-amber-400">brand</span>{' '}
-            before you&apos;ve built your{' '}
-            <span className="italic font-light">strategy.</span>
-          </h1>
-          <p className="text-xl sm:text-2xl text-slate-300 leading-relaxed max-w-2xl mb-12">
-            Most founders jump straight to logos, taglines, and websites.
-            The Brand Strategy Canvas is the one-page framework that helps
-            you make the strategic choices that make all of it work.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex items-center gap-6">
+            <a
+              href="#plugin"
+              className="text-sm font-medium text-slate-500 hover:text-slate-700 transition-colors"
+            >
+              Try the plugin
+            </a>
             <a
               href="https://www.amazon.com/Brand-Strategy-Canvas-One-Page-Startups/dp/148425158X"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-400 text-slate-950 font-semibold text-lg px-8 py-4 rounded-lg transition-colors"
+              className="text-sm font-medium text-ic-yellow hover:text-ic-yellow/80 transition-colors"
+            >
+              Get the book →
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      {/* ── HERO ── */}
+      <section className="pt-32 pb-24 px-6 bg-ic-dark text-white">
+        <div className="max-w-4xl mx-auto">
+          <p className="subhead text-xs font-semibold uppercase text-ic-yellow mb-6">/ The Brand Strategy Canvas</p>
+          <h1 className="font-display font-black text-5xl sm:text-6xl lg:text-7xl leading-[1.05] tracking-tight mb-8">
+            Build your{' '}
+            <span className="italic">strategy</span>{' '}
+            before you build your{' '}
+            <span className="text-ic-yellow">brand.</span>
+          </h1>
+          <p className="text-xl sm:text-2xl text-slate-300 leading-relaxed max-w-2xl mb-12 pl-10 relative before:content-[''] before:block before:absolute before:left-0 before:top-[0.9em] before:w-6 before:h-px before:bg-ic-yellow">
+            Most founders spend money on designers and copywriters before
+            they&apos;ve answered a single strategic question. The Brand
+            Strategy Canvas gives you a framework to answer them — nine
+            boxes, in order, on one page.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 mb-6">
+            <a
+              href="https://www.amazon.com/Brand-Strategy-Canvas-One-Page-Startups/dp/148425158X"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 bg-ic-yellow hover:bg-ic-yellow/90 text-black font-semibold text-sm px-8 py-4 transition-colors"
             >
               Get the book
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </a>
             <a
               href="#canvas"
-              className="inline-flex items-center justify-center gap-2 border border-slate-600 hover:border-slate-400 text-slate-300 hover:text-white font-medium text-lg px-8 py-4 rounded-lg transition-colors"
+              className="inline-flex items-center justify-center gap-2 border-2 border-white/30 hover:border-white/60 text-slate-300 hover:text-white font-medium text-sm px-8 py-4 transition-colors"
             >
               See the framework
             </a>
           </div>
+          <a
+            href="#plugin"
+            className="inline-flex items-center gap-2 text-slate-400 hover:text-ic-yellow font-medium transition-colors text-sm"
+          >
+            Explore the Claude plugin
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+            </svg>
+          </a>
         </div>
       </section>
 
       {/* ── OVERVIEW ── */}
       <section className="py-24 px-6 bg-white">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold tracking-tight mb-8 text-slate-900">
-            Strategy before execution.
-            <br />
-            <span className="text-slate-400 font-normal italic">Every time.</span>
+          <p className="subhead text-xs font-semibold uppercase text-ic-yellow mb-4">/ The Problem</p>
+          <h2 className="font-display font-black text-3xl sm:text-4xl leading-tight tracking-tight mb-8 text-slate-900">
+            The branding books were written for the wrong companies.
           </h2>
           <p className="text-lg sm:text-xl text-slate-600 leading-relaxed mb-10">
-            Most branding advice is written for Nike and Coca-Cola — companies
-            with decades of equity and armies of agency partners. <em>The Brand
-            Strategy Canvas</em> was written for founders: the people making
-            consequential brand decisions with a few hours, a small team, and
-            real money on the line.
+            Nike has a 50-year brand and a floor of strategists. You have a few
+            hours, a small team, and real decisions to make. Most branding advice
+            isn&apos;t wrong — it just wasn&apos;t written for your situation.
           </p>
           <p className="text-lg sm:text-xl text-slate-600 leading-relaxed mb-12">
-            The canvas walks you through nine interconnected questions — from
-            who you&apos;re actually for, to what you believably claim, to how
-            you want to make people feel. When you&apos;re done, you have a
-            positioning statement, a brand essence, and a clear foundation for
-            every piece of copy, design, and messaging that follows. No agency
-            required.
+            <em>The Brand Strategy Canvas</em> walks you through nine questions:
+            who you&apos;re actually for, what you can credibly claim, and what
+            you want people to feel. Answer them in order and you come out with
+            a positioning statement, a brand essence, and a foundation for every
+            piece of copy and design that follows. No agency required.
           </p>
           <a
             href="https://www.amazon.com/Brand-Strategy-Canvas-One-Page-Startups/dp/148425158X"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-white font-semibold text-base px-7 py-3.5 rounded-lg transition-colors"
+            className="inline-flex items-center gap-2 bg-ic-dark hover:bg-black text-white font-semibold text-sm px-7 py-3.5 transition-colors"
           >
             Order on Amazon
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -97,15 +108,16 @@ export default function Home() {
       </section>
 
       {/* ── CANVAS VISUAL ── */}
-      <section id="canvas" className="py-24 px-6 bg-slate-50">
+      <section id="canvas" className="py-24 px-6 bg-[#f1f1f1]">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold tracking-tight mb-4">
+            <p className="subhead text-xs font-semibold uppercase text-ic-yellow mb-4">/ The Framework</p>
+            <h2 className="font-display font-black text-3xl sm:text-4xl leading-tight tracking-tight mb-4">
               Nine boxes. One strategy.
             </h2>
             <p className="text-lg text-slate-500 max-w-xl mx-auto">
-              Each box builds on the last. Fill them in order and you&apos;ll
-              end up with a complete brand strategy — not a pile of opinions.
+              Each box builds on the last. Fill them in order
+              and you end up with strategy — not a pile of opinions.
             </p>
           </div>
 
@@ -168,12 +180,13 @@ export default function Home() {
       <section className="py-24 px-6 bg-white">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold tracking-tight mb-4">
-              What you&apos;ll work through
+            <p className="subhead text-xs font-semibold uppercase text-ic-yellow mb-4">/ How It Works</p>
+            <h2 className="font-display font-black text-3xl sm:text-4xl leading-tight tracking-tight mb-4">
+              Four sections. Nine decisions.
             </h2>
             <p className="text-lg text-slate-500 max-w-xl mx-auto">
-              The canvas moves through four sections in order. Each one
-              unlocks the next.
+              Work through them in order. Each section builds on the last
+              and feeds directly into what comes next.
             </p>
           </div>
 
@@ -197,8 +210,8 @@ export default function Home() {
               color="bg-emerald-50 border-emerald-200"
               accentColor="text-emerald-700"
               items={[
-                { name: 'Rational Benefits', desc: 'How customers experience your features. Move up the Ladder of Abstraction: from "what it does" to "what that means for me." Answers the question: so what?' },
-                { name: 'Emotional Benefits', desc: 'The higher-order payoff. This is where most startups stop — and why they all sound the same. Answers: so that... The deepest differentiation opportunity on the canvas.' },
+                { name: 'Rational Benefits', desc: 'How customers experience your features — not what it does, but what it means for them. The first step up the Ladder of Abstraction.' },
+                { name: 'Emotional Benefits', desc: 'The higher-order payoff. This is where most startups stop — which is exactly why it\'s the biggest differentiation opportunity on the canvas.' },
               ]}
             />
             <SectionCard
@@ -208,19 +221,19 @@ export default function Home() {
               color="bg-amber-50 border-amber-200"
               accentColor="text-amber-700"
               items={[
-                { name: 'Positioning Statement', desc: 'The philosophical center of the canvas. A single sentence that captures who you\'re for, what you offer, and why it matters — synthesized from everything above.' },
-                { name: 'Brand Essence', desc: 'A 2–4 word distillation of the positioning statement. The north star for every brand decision you\'ll ever make.' },
+                { name: 'Positioning Statement', desc: 'One sentence. Who you\'re for, what you offer, why it matters. Every box above this one exists to make this sentence true.' },
+                { name: 'Brand Essence', desc: '2–4 words that distill the whole statement. Short enough to remember. Clear enough to make decisions from.' },
               ]}
             />
             <SectionCard
               number="04"
               title="Voice & Expression"
               subtitle="Values, Personality, Key Messages"
-              color="bg-violet-50 border-violet-200"
-              accentColor="text-violet-700"
+              color="bg-slate-50 border-slate-200"
+              accentColor="text-ic-yellow"
               items={[
                 { name: 'Values', desc: 'Internal guide rails, not marketing copy. The nouns that describe what your company genuinely believes and how it makes decisions.' },
-                { name: 'Personality', desc: 'The outward manifestation of your values — how your brand shows up in the world. Characterful, not generic.' },
+                { name: 'Personality', desc: 'How your brand shows up in the world. Characterful, not generic. The outward expression of everything your values say internally.' },
                 { name: 'Key Messages', desc: '3–5 concepts you communicate consistently, each backed by proof points. Apply the Talk Like a Human test before you\'re done.' },
               ]}
             />
@@ -229,37 +242,34 @@ export default function Home() {
       </section>
 
       {/* ── PLUGIN CTA ── */}
-      <section className="py-24 px-6 bg-slate-950 text-white">
+      <section id="plugin" className="py-24 px-6 bg-ic-dark text-white">
         <div className="max-w-4xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="inline-flex items-center gap-2 text-violet-400 text-sm font-medium mb-6 tracking-wide uppercase">
-                <span className="w-8 h-px bg-violet-400"></span>
-                Claude Code Plugin
-              </div>
-              <h2 className="text-3xl sm:text-4xl font-bold tracking-tight mb-6">
-                Build your canvas with{' '}
-                <span className="text-violet-400">AI coaching.</span>
+              <p className="subhead text-xs font-semibold uppercase text-ic-purple mb-6">/ Claude Code Plugin</p>
+              <h2 className="font-display font-black text-3xl sm:text-4xl leading-tight tracking-tight mb-6">
+                The framework,{' '}
+                <span className="text-ic-purple">built into Claude Code.</span>
               </h2>
               <p className="text-slate-300 text-lg leading-relaxed mb-6">
-                The Brand Strategy Canvas plugin for Claude Code guides you
-                through all nine boxes interactively — asking the right
-                questions, helping you synthesize your answers, and writing
-                your completed canvas to file when you&apos;re done.
+                Install the plugin, run{' '}
+                <code className="text-ic-purple bg-white/10 px-1.5 py-0.5 text-sm">/canvas</code>,
+                and Claude walks you through every box — asking the right
+                questions, pushing back on vague answers, and writing your
+                finished canvas to file when you&apos;re done.
               </p>
               <p className="text-slate-400 leading-relaxed mb-10">
-                A single <code className="text-violet-300 bg-slate-800 px-1.5 py-0.5 rounded text-sm">/canvas</code> command
-                routes intelligently based on where you are: starting fresh,
-                picking up where you left off, or reviewing a completed canvas.
-                Output includes both a full strategic document and an
-                Excalidraw visualization.
+                It knows where you are. Start fresh, pick up mid-canvas, or
+                jump straight to a specific section. You finish with two files:
+                a full strategic document and an Excalidraw diagram you can
+                pin to the wall.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
                   href="https://github.com/patrickjwoods/brand-canvas-plugin"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 bg-violet-600 hover:bg-violet-500 text-white font-semibold px-7 py-3.5 rounded-lg transition-colors"
+                  className="inline-flex items-center justify-center gap-2 bg-ic-purple hover:bg-ic-purple/90 text-white font-semibold text-sm px-7 py-3.5 transition-colors"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
@@ -280,18 +290,18 @@ export default function Home() {
               <div className="p-6 font-mono text-sm leading-relaxed">
                 <p className="text-slate-500 mb-4"># Install the plugin</p>
                 <p className="text-slate-300 mb-2">
-                  <span className="text-violet-400">$</span>{' '}
+                  <span className="text-ic-purple">$</span>{' '}
                   /plugin marketplace add{' '}
                   <span className="text-amber-300">patrickjwoods/brand-canvas-plugin</span>
                 </p>
                 <p className="text-slate-300 mb-6">
-                  <span className="text-violet-400">$</span>{' '}
+                  <span className="text-ic-purple">$</span>{' '}
                   /plugin install{' '}
                   <span className="text-amber-300">brand-canvas@patrickjwoods/brand-canvas-plugin</span>
                 </p>
                 <p className="text-slate-500 mb-4"># Start your canvas</p>
                 <p className="text-slate-300 mb-6">
-                  <span className="text-violet-400">$</span>{' '}
+                  <span className="text-ic-purple">$</span>{' '}
                   <span className="text-emerald-400">/canvas</span>
                 </p>
                 <p className="text-slate-500 mb-2"># Or jump to a section</p>
@@ -310,17 +320,7 @@ export default function Home() {
       {/* ── FOOTER ── */}
       <footer className="py-12 px-6 bg-slate-950 border-t border-slate-800">
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-slate-500 text-sm">
-          <p>
-            &copy; {new Date().getFullYear()} Patrick Woods.{' '}
-            <a
-              href="https://www.amazon.com/Brand-Strategy-Canvas-One-Page-Startups/dp/148425158X"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline hover:text-slate-300 transition-colors"
-            >
-              Published by Apress.
-            </a>
-          </p>
+          <p>&copy; {new Date().getFullYear()} Patrick Woods.</p>
           <div className="flex items-center gap-6">
             <a
               href="https://twitter.com/patrickjwoods"

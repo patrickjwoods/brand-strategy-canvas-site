@@ -9,18 +9,13 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['var(--font-inter)', 'system-ui', 'sans-serif'],
-        serif: ['var(--font-lora)', 'Georgia', 'serif'],
+        display: ['var(--font-playfair)', 'Georgia', 'serif'],
       },
       colors: {
-        ink: {
-          DEFAULT: '#0F172A',
-          soft: '#1E293B',
-        },
-        amber: {
-          brand: '#D97706',
-          light: '#FEF3C7',
-          glow: '#FFFBEB',
-        },
+        'ic-yellow': '#ffd900',
+        'ic-teal': '#26bfb5',
+        'ic-dark': '#111111',
+        'ic-purple': '#a78bfa',
       },
     },
   },

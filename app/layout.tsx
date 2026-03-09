@@ -18,6 +18,9 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: 'The Brand Strategy Canvas',
   description: 'A one-page framework for early-stage founders who need brand strategy before brand execution. Build your positioning, voice, and messaging on a foundation that actually holds.',
+  icons: {
+    icon: '/favicon.svg',
+  },
   openGraph: {
     title: 'The Brand Strategy Canvas',
     description: 'A one-page framework for early-stage founders who need brand strategy before brand execution.',

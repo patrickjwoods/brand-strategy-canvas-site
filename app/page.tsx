@@ -5,7 +5,7 @@ export default function Home() {
       {/* ── NAV ── */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm border-b border-slate-100">
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-          <span className="font-semibold text-slate-900 tracking-tight">
+          <span className="font-semibold text-slate-900">
             The Brand Strategy Canvas
           </span>
           <div className="flex items-center gap-6">
@@ -19,7 +19,7 @@ export default function Home() {
               href="https://www.amazon.com/Brand-Strategy-Canvas-One-Page-Startups/dp/148425158X"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm font-medium text-ic-yellow hover:text-ic-yellow/80 transition-colors"
+              className="text-sm font-medium text-slate-900 hover:text-slate-600 transition-colors"
             >
               Get the book →
             </a>
@@ -31,26 +31,27 @@ export default function Home() {
       <section className="pt-32 pb-24 px-6 bg-ic-dark text-white">
         <div className="max-w-4xl mx-auto">
           <p className="subhead text-xs font-semibold uppercase text-ic-yellow mb-6">/ The Brand Strategy Canvas</p>
-          <h1 className="font-display font-black text-5xl sm:text-6xl lg:text-7xl leading-[1.05] tracking-tight mb-8">
-            Build your{' '}
-            <span className="italic">strategy</span>{' '}
-            before you build your{' '}
-            <span className="text-ic-yellow">brand.</span>
+          <h1 className="font-display font-black text-5xl sm:text-6xl lg:text-7xl leading-[1.1] mb-8">
+            Anyone can ship software.{' '}
+            Not everyone can{' '}
+            <span className="text-ic-yellow">create meaning.</span>
           </h1>
-          <p className="text-xl sm:text-2xl text-slate-300 leading-relaxed max-w-2xl mb-12 pl-10 relative before:content-[''] before:block before:absolute before:left-0 before:top-[0.9em] before:w-6 before:h-px before:bg-ic-yellow">
-            Most founders spend money on designers and copywriters before
-            they&apos;ve answered a single strategic question. The Brand
-            Strategy Canvas gives you a framework to answer them — nine
-            boxes, in order, on one page.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 mb-6">
+          <div className="flex items-start gap-4 max-w-2xl mb-12">
+            <span className="flex-none w-14 h-px bg-ic-yellow mt-[0.85em]"></span>
+            <p className="text-xl sm:text-2xl text-slate-300 leading-relaxed">
+              The tools to ship have never been more powerful. The market has
+              never been more crowded. Speed-to-market is table stakes. But
+              what still can&apos;t be LLMed is the strategic insight that
+              makes a brand resonate. Nine boxes. One page. This is the
+              framework for finding it.
+            </p>
+          </div>
+          <div className="flex flex-col sm:flex-row gap-4 mb-6 pl-[4.5rem]">
             <a
-              href="https://www.amazon.com/Brand-Strategy-Canvas-One-Page-Startups/dp/148425158X"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#plugin"
               className="inline-flex items-center justify-center gap-2 bg-ic-yellow hover:bg-ic-yellow/90 text-black font-semibold text-sm px-8 py-4 transition-colors"
             >
-              Get the book
+              Explore the plugin
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
@@ -63,10 +64,12 @@ export default function Home() {
             </a>
           </div>
           <a
-            href="#plugin"
-            className="inline-flex items-center gap-2 text-slate-400 hover:text-ic-yellow font-medium transition-colors text-sm"
+            href="https://www.amazon.com/Brand-Strategy-Canvas-One-Page-Startups/dp/148425158X"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-slate-400 hover:text-ic-yellow font-medium transition-colors text-sm pl-[4.5rem]"
           >
-            Explore the Claude plugin
+            Get the book
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
             </svg>
@@ -76,34 +79,42 @@ export default function Home() {
 
       {/* ── OVERVIEW ── */}
       <section className="py-24 px-6 bg-white">
-        <div className="max-w-3xl mx-auto text-center">
-          <p className="subhead text-xs font-semibold uppercase text-ic-yellow mb-4">/ The Problem</p>
-          <h2 className="font-display font-black text-3xl sm:text-4xl leading-tight tracking-tight mb-8 text-slate-900">
-            The branding books were written for the wrong companies.
+        <div className="max-w-3xl mx-auto">
+          <p className="subhead text-xs font-semibold uppercase text-ic-yellow mb-4 text-center">/ The Problem</p>
+          <h2 className="font-display font-black text-3xl sm:text-4xl leading-tight mb-8 text-slate-900 text-center">
+            Building is cheap. Meaning is earned.
           </h2>
           <p className="text-lg sm:text-xl text-slate-600 leading-relaxed mb-10">
-            Nike has a 50-year brand and a floor of strategists. You have a few
-            hours, a small team, and real decisions to make. Most branding advice
-            isn&apos;t wrong — it just wasn&apos;t written for your situation.
+            Coding agents mean any team can ship fast. That&apos;s raised the
+            floor — and the ceiling — of what&apos;s possible. It&apos;s also
+            flooded every market with countless alternatives.
+          </p>
+          <p className="text-lg sm:text-xl text-slate-600 leading-relaxed mb-10">
+            When the tools to build are everywhere, what separates the companies
+            that break through is clarity: about who they&apos;re for, what they
+            genuinely offer, and why it matters. That clarity can&apos;t be
+            generated. It has to be discovered by a human willing to do the
+            strategic work.
           </p>
           <p className="text-lg sm:text-xl text-slate-600 leading-relaxed mb-12">
-            <em>The Brand Strategy Canvas</em> walks you through nine questions:
-            who you&apos;re actually for, what you can credibly claim, and what
-            you want people to feel. Answer them in order and you come out with
-            a positioning statement, a brand essence, and a foundation for every
-            piece of copy and design that follows. No agency required.
+            <em>The Brand Strategy Canvas</em> is that work. Nine boxes. In
+            order. The framework for turning your insight about your audience,
+            your market, and your product into a brand strategy that actually
+            holds.
           </p>
-          <a
-            href="https://www.amazon.com/Brand-Strategy-Canvas-One-Page-Startups/dp/148425158X"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-ic-dark hover:bg-black text-white font-semibold text-sm px-7 py-3.5 transition-colors"
-          >
-            Order on Amazon
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-            </svg>
-          </a>
+          <div className="text-center">
+            <a
+              href="https://www.amazon.com/Brand-Strategy-Canvas-One-Page-Startups/dp/148425158X"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-ic-dark hover:bg-black text-white font-semibold text-sm px-7 py-3.5 transition-colors"
+            >
+              Order on Amazon
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+          </div>
         </div>
       </section>
 
@@ -112,66 +123,30 @@ export default function Home() {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
             <p className="subhead text-xs font-semibold uppercase text-ic-yellow mb-4">/ The Framework</p>
-            <h2 className="font-display font-black text-3xl sm:text-4xl leading-tight tracking-tight mb-4">
+            <h2 className="font-display font-black text-3xl sm:text-4xl leading-tight mb-4">
               Nine boxes. One strategy.
             </h2>
             <p className="text-lg text-slate-500 max-w-xl mx-auto">
-              Each box builds on the last. Fill them in order
-              and you end up with strategy — not a pile of opinions.
+              Each box builds on the last. Fill them in order for a clear
+              point of view on who you&apos;re for, what you stand for,
+              and why you win.
             </p>
           </div>
 
-          {/* Canvas Grid */}
-          <div className="border-2 border-slate-300 rounded-xl overflow-hidden bg-white shadow-sm">
-
-            {/* Section label + row 1 */}
-            <div className="grid grid-cols-[80px_1fr_1fr_1fr] border-b border-slate-200">
-              <div className="bg-slate-100 flex items-center justify-center p-3 border-r border-slate-200">
-                <span className="text-[10px] font-semibold text-slate-500 uppercase tracking-widest writing-mode-vertical rotate-180"
-                  style={{ writingMode: 'vertical-rl', transform: 'rotate(180deg)' }}>
-                  Market Opportunity
-                </span>
-              </div>
-              <CanvasBox label="A" title="Customer / User Insight" description="Portrait of your ideal customer — psychographic, demographic, what they desperately need." />
-              <CanvasBox label="B" title="Competitive Environment" description="Market landscape, category themes, how competitors position themselves." borderLeft />
-              <CanvasBox label="C" title="Company / Product Features" description="What your product does. The foundation everything else is built from." borderLeft />
-            </div>
-
-            {/* Row 2 — Benefits + Positioning */}
-            <div className="grid grid-cols-[80px_1fr_1fr_1fr] border-b border-slate-200">
-              <div className="bg-slate-100 flex items-center justify-center p-3 border-r border-slate-200">
-                <span className="text-[10px] font-semibold text-slate-500 uppercase tracking-widest"
-                  style={{ writingMode: 'vertical-rl', transform: 'rotate(180deg)' }}>
-                  Benefits
-                </span>
-              </div>
-              <CanvasBox label="" title="Rational Benefits" description={`How customers experience your features. The "so what?" that moves up the ladder.`} />
-              <div className="border-l border-slate-200 bg-amber-50 p-6 flex flex-col gap-2">
-                <span className="text-xs font-bold text-amber-700 uppercase tracking-widest">Core</span>
-                <p className="text-base font-bold text-slate-900 leading-tight">Positioning Statement</p>
-                <p className="text-xs text-slate-500 leading-relaxed mt-1">
-                  For [audience], [brand] is [description] that [benefit] because [proof] so that [payoff].
-                </p>
-                <div className="mt-3 pt-3 border-t border-amber-200">
-                  <p className="text-[11px] font-semibold text-amber-700 uppercase tracking-wide mb-1">Brand Essence</p>
-                  <p className="text-xs text-slate-500">2–4 word distillation of everything above.</p>
-                </div>
-              </div>
-              <CanvasBox label="" title="Emotional Benefits" description={`Higher-order payoff. The "so that..." most startups never reach — and the biggest differentiation opportunity.`} borderLeft />
-            </div>
-
-            {/* Row 3 — Identity */}
-            <div className="grid grid-cols-[80px_1fr_1fr_1fr]">
-              <div className="bg-slate-100 flex items-center justify-center p-3 border-r border-slate-200">
-                <span className="text-[10px] font-semibold text-slate-500 uppercase tracking-widest"
-                  style={{ writingMode: 'vertical-rl', transform: 'rotate(180deg)' }}>
-                  Identity
-                </span>
-              </div>
-              <CanvasBox label="" title="Values" description="Internal guide rails. Not used in copy — experienced by customers. Vision → Mission → Values." />
-              <CanvasBox label="" title="Personality" description="Outward expression of values. What would your brand order at a bar? What does it believe?" borderLeft />
-              <CanvasBox label="" title="Key Messages" description="3–5 concepts to communicate consistently. Each needs proof points. Apply the Talk Like a Human test." borderLeft />
-            </div>
+          {/* Canvas PNG */}
+          <img
+            src="/brand-canvas.png"
+            alt="The Brand Strategy Canvas — nine-box framework"
+            className="w-[95%] sm:w-1/2 mx-auto block"
+          />
+          <div className="text-center mt-4">
+            <a
+              href="/brand-canvas.png"
+              download
+              className="text-sm font-medium text-slate-500 hover:text-slate-900 transition-colors"
+            >
+              Download
+            </a>
           </div>
         </div>
       </section>
@@ -181,12 +156,13 @@ export default function Home() {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
             <p className="subhead text-xs font-semibold uppercase text-ic-yellow mb-4">/ How It Works</p>
-            <h2 className="font-display font-black text-3xl sm:text-4xl leading-tight tracking-tight mb-4">
-              Four sections. Nine decisions.
+            <h2 className="font-display font-black text-3xl sm:text-4xl leading-tight mb-4">
+              Four sections. Nine decisions. One foundation.
             </h2>
             <p className="text-lg text-slate-500 max-w-xl mx-auto">
-              Work through them in order. Each section builds on the last
-              and feeds directly into what comes next.
+              Work through them in order. Each answer narrows the decision
+              space for what comes next — copy, design, positioning, hiring.
+              Done right, you&apos;ll reference this for years.
             </p>
           </div>
 
@@ -195,8 +171,8 @@ export default function Home() {
               number="01"
               title="Market Opportunity"
               subtitle="Boxes A, B, C"
-              color="bg-blue-50 border-blue-200"
-              accentColor="text-blue-700"
+              color="border-l-ic-yellow"
+              accentColor="text-amber-600"
               items={[
                 { name: 'Customer / User Insight', desc: 'A precise portrait of who you\'re building for — not a demographic checkbox, but a real understanding of how they think, what they fear, and what they\'re trying to become.' },
                 { name: 'Competitive Environment', desc: 'Map the landscape: what alternatives exist, how they position themselves, and where the white space is. The anti-audience exercise clarifies who you\'re explicitly not for.' },
@@ -207,8 +183,8 @@ export default function Home() {
               number="02"
               title="Benefits"
               subtitle="Rational + Emotional"
-              color="bg-emerald-50 border-emerald-200"
-              accentColor="text-emerald-700"
+              color="border-l-ic-teal"
+              accentColor="text-teal-600"
               items={[
                 { name: 'Rational Benefits', desc: 'How customers experience your features — not what it does, but what it means for them. The first step up the Ladder of Abstraction.' },
                 { name: 'Emotional Benefits', desc: 'The higher-order payoff. This is where most startups stop — which is exactly why it\'s the biggest differentiation opportunity on the canvas.' },
@@ -218,8 +194,8 @@ export default function Home() {
               number="03"
               title="Positioning"
               subtitle="Statement + Essence"
-              color="bg-amber-50 border-amber-200"
-              accentColor="text-amber-700"
+              color="border-l-ic-purple"
+              accentColor="text-violet-500"
               items={[
                 { name: 'Positioning Statement', desc: 'One sentence. Who you\'re for, what you offer, why it matters. Every box above this one exists to make this sentence true.' },
                 { name: 'Brand Essence', desc: '2–4 words that distill the whole statement. Short enough to remember. Clear enough to make decisions from.' },
@@ -229,8 +205,8 @@ export default function Home() {
               number="04"
               title="Voice & Expression"
               subtitle="Values, Personality, Key Messages"
-              color="bg-slate-50 border-slate-200"
-              accentColor="text-ic-yellow"
+              color="border-l-slate-400"
+              accentColor="text-slate-500"
               items={[
                 { name: 'Values', desc: 'Internal guide rails, not marketing copy. The nouns that describe what your company genuinely believes and how it makes decisions.' },
                 { name: 'Personality', desc: 'How your brand shows up in the world. Characterful, not generic. The outward expression of everything your values say internally.' },
@@ -247,7 +223,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="subhead text-xs font-semibold uppercase text-ic-purple mb-6">/ Claude Code Plugin</p>
-              <h2 className="font-display font-black text-3xl sm:text-4xl leading-tight tracking-tight mb-6">
+              <h2 className="font-display font-black text-3xl sm:text-4xl leading-tight mb-6">
                 The framework,{' '}
                 <span className="text-ic-purple">built into Claude Code.</span>
               </h2>
@@ -348,28 +324,6 @@ export default function Home() {
 
 /* ── Sub-components ── */
 
-function CanvasBox({
-  label,
-  title,
-  description,
-  borderLeft = false,
-}: {
-  label: string
-  title: string
-  description: string
-  borderLeft?: boolean
-}) {
-  return (
-    <div className={`p-6 flex flex-col gap-2 ${borderLeft ? 'border-l border-slate-200' : ''}`}>
-      {label && (
-        <span className="text-xs font-bold text-slate-400 uppercase tracking-widest">{label}</span>
-      )}
-      <p className="text-sm font-semibold text-slate-800 leading-tight">{title}</p>
-      <p className="text-xs text-slate-500 leading-relaxed">{description}</p>
-    </div>
-  )
-}
-
 function SectionCard({
   number,
   title,
@@ -386,13 +340,13 @@ function SectionCard({
   items: { name: string; desc: string }[]
 }) {
   return (
-    <div className={`border rounded-xl p-8 ${color}`}>
+    <div className={`bg-white border border-slate-100 border-l-4 p-8 ${color}`}>
       <div className="flex items-start justify-between mb-6">
         <div>
           <p className={`text-xs font-bold uppercase tracking-widest mb-1 ${accentColor}`}>
             Section {number}
           </p>
-          <h3 className="text-xl font-bold text-slate-900">{title}</h3>
+          <h3 className="font-display text-xl font-bold text-slate-900">{title}</h3>
           <p className="text-sm text-slate-500 mt-0.5">{subtitle}</p>
         </div>
       </div>

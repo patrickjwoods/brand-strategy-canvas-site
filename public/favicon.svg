@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Top row: Customer Insight | Competitive Environment | Company Features -->
+  <rect x="2"  y="2"  width="18" height="14" rx="2" stroke="#111" stroke-width="2.5"/>
+  <rect x="23" y="2"  width="18" height="14" rx="2" stroke="#111" stroke-width="2.5"/>
+  <rect x="44" y="2"  width="18" height="14" rx="2" stroke="#111" stroke-width="2.5"/>
+
+  <!-- Middle row: Rational Benefits | Positioning Statement (center, emphasized) | Emotional Benefits -->
+  <rect x="2"  y="20" width="18" height="24" rx="2" stroke="#111" stroke-width="2.5"/>
+  <rect x="23" y="20" width="18" height="24" rx="2" stroke="#111" stroke-width="3.5" fill="#111" fill-opacity="0.08"/>
+  <rect x="44" y="20" width="18" height="24" rx="2" stroke="#111" stroke-width="2.5"/>
+
+  <!-- Bottom row: Values | Key Messages | Personality -->
+  <rect x="2"  y="48" width="18" height="14" rx="2" stroke="#111" stroke-width="2.5"/>
+  <rect x="23" y="48" width="18" height="14" rx="2" stroke="#111" stroke-width="2.5"/>
+  <rect x="44" y="48" width="18" height="14" rx="2" stroke="#111" stroke-width="2.5"/>
+</svg>

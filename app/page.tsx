@@ -253,7 +253,7 @@ export default function Home() {
               </h2>
               <p className="text-slate-300 text-lg leading-relaxed mb-6">
                 Install the plugin, run{' '}
-                <code className="text-ic-purple bg-white/10 px-1.5 py-0.5 text-sm">/canvas</code>,
+                <code className="text-ic-purple bg-white/10 px-1.5 py-0.5 text-sm">/brand-canvas</code>,
                 and Claude walks you through every box — asking the right
                 questions, pushing back on vague answers, and writing your
                 finished canvas to file when you&apos;re done.
@@ -302,14 +302,14 @@ export default function Home() {
                 <p className="text-slate-500 mb-4"># Start your canvas</p>
                 <p className="text-slate-300 mb-6">
                   <span className="text-ic-purple">$</span>{' '}
-                  <span className="text-emerald-400">/canvas</span>
+                  <span className="text-emerald-400">/brand-canvas</span>
                 </p>
                 <p className="text-slate-500 mb-2"># Or jump to a section</p>
                 <p className="text-slate-400 text-xs">
-                  /canvas opportunity &nbsp;→ Market Opportunity<br />
-                  /canvas benefits &nbsp;&nbsp;&nbsp;→ Rational &amp; Emotional<br />
-                  /canvas position &nbsp;&nbsp;→ Positioning Statement<br />
-                  /canvas voice &nbsp;&nbsp;&nbsp;&nbsp;→ Values, Personality, Messages
+                  /brand-canvas opportunity &nbsp;→ Market Opportunity<br />
+                  /brand-canvas benefits &nbsp;&nbsp;&nbsp;→ Rational &amp; Emotional<br />
+                  /brand-canvas position &nbsp;&nbsp;→ Positioning Statement<br />
+                  /brand-canvas voice &nbsp;&nbsp;&nbsp;&nbsp;→ Values, Personality, Messages
                 </p>
               </div>
             </div>

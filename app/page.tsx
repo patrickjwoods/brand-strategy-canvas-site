@@ -42,7 +42,7 @@ export default function Home() {
               The tools to ship have never been more powerful. The market has
               never been more crowded. Speed-to-market is table stakes. But
               what still can&apos;t be LLMed is the strategic insight that
-              makes a brand resonate. Nine boxes. One page. This is the
+              makes a brand resonate. Ten boxes. One page. This is the
               framework for finding it.
             </p>
           </div>
@@ -97,7 +97,7 @@ export default function Home() {
             strategic work.
           </p>
           <p className="text-lg sm:text-xl text-slate-600 leading-relaxed mb-12">
-            <em>The Brand Strategy Canvas</em> is that work. Nine boxes. In
+            <em>The Brand Strategy Canvas</em> is that work. Ten boxes. In
             order. The framework for turning your insight about your audience,
             your market, and your product into a brand strategy that actually
             holds.
@@ -124,7 +124,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <p className="subhead text-xs font-semibold uppercase text-ic-yellow mb-4">/ The Framework</p>
             <h2 className="font-display font-black text-3xl sm:text-4xl leading-tight mb-4">
-              Nine boxes. One strategy.
+              Ten boxes. One strategy.
             </h2>
             <p className="text-lg text-slate-500 max-w-xl mx-auto">
               Each box builds on the last. Fill them in order for a clear
@@ -135,13 +135,13 @@ export default function Home() {
 
           {/* Canvas PNG */}
           <img
-            src="/brand-canvas.png"
-            alt="The Brand Strategy Canvas — nine-box framework"
+            src="/brand-strategy-canvas.png"
+            alt="The Brand Strategy Canvas — ten-box framework"
             className="w-[95%] sm:w-1/2 mx-auto block"
           />
           <div className="text-center mt-4">
             <a
-              href="/brand-canvas.png"
+              href="/brand-strategy-canvas.png"
               download
               className="text-sm font-medium text-slate-500 hover:text-slate-900 transition-colors"
             >
@@ -157,7 +157,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <p className="subhead text-xs font-semibold uppercase text-ic-yellow mb-4">/ How It Works</p>
             <h2 className="font-display font-black text-3xl sm:text-4xl leading-tight mb-4">
-              Four sections. Nine decisions. One foundation.
+              Four sections. Ten decisions. One foundation.
             </h2>
             <p className="text-lg text-slate-500 max-w-xl mx-auto">
               Work through them in order. Each answer narrows the decision
@@ -170,11 +170,12 @@ export default function Home() {
             <SectionCard
               number="01"
               title="Market Opportunity"
-              subtitle="Boxes A, B, C"
+              subtitle="Boxes A, B, C, D"
               color="border-l-ic-yellow"
               accentColor="text-amber-600"
               items={[
                 { name: 'Customer / User Insight', desc: 'A precise portrait of who you\'re building for — not a demographic checkbox, but a real understanding of how they think, what they fear, and what they\'re trying to become.' },
+                { name: 'Cultural Moment', desc: 'What\'s shifting in culture, technology, or the market that makes this brand timely right now. The "why now" that separates a brand that feels prescient from one that feels generic. The most dynamic box on the canvas — revisit it as the moment evolves.' },
                 { name: 'Competitive Environment', desc: 'Map the landscape: what alternatives exist, how they position themselves, and where the white space is. The anti-audience exercise clarifies who you\'re explicitly not for.' },
                 { name: 'Company / Product Features', desc: 'What your product actually does. This is the raw material — before benefits, before emotion, before story.' },
               ]}

@@ -38,7 +38,7 @@ export default function Home() {
           </h1>
           <div className="flex items-start gap-4 max-w-2xl mb-12">
             <span className="flex-none w-14 h-px bg-ic-yellow mt-[0.85em]"></span>
-            <p className="text-xl sm:text-2xl text-slate-300 leading-relaxed">
+            <p className="text-xl sm:text-2xl text-slate-300 leading-[2.2rem]">
               The tools to ship have never been more powerful. The market has
               never been more crowded. Speed-to-market is table stakes. But
               what still can&apos;t be LLMed is the strategic insight that
@@ -84,19 +84,19 @@ export default function Home() {
           <h2 className="font-display font-black text-3xl sm:text-4xl leading-tight mb-8 text-slate-900 text-center">
             Building is cheap. Meaning is earned.
           </h2>
-          <p className="text-lg sm:text-xl text-slate-600 leading-relaxed mb-10">
+          <p className="text-lg sm:text-xl text-slate-600 leading-[2rem] mb-10">
             Coding agents mean any team can ship fast. That&apos;s raised the
             floor — and the ceiling — of what&apos;s possible. It&apos;s also
             flooded every market with countless alternatives.
           </p>
-          <p className="text-lg sm:text-xl text-slate-600 leading-relaxed mb-10">
+          <p className="text-lg sm:text-xl text-slate-600 leading-[2rem] mb-10">
             When the tools to build are everywhere, what separates the companies
             that break through is clarity: about who they&apos;re for, what they
             genuinely offer, and why it matters. That clarity can&apos;t be
             generated. It has to be discovered by a human willing to do the
             strategic work.
           </p>
-          <p className="text-lg sm:text-xl text-slate-600 leading-relaxed mb-12">
+          <p className="text-lg sm:text-xl text-slate-600 leading-[2rem] mb-12">
             <em>The Brand Strategy Canvas</em> is that work. Ten boxes. In
             order. The framework for turning your insight about your audience,
             your market, and your product into a brand strategy that actually

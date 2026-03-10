@@ -27,12 +27,21 @@ export const metadata: Metadata = {
     url: 'https://thebrandstrategycanvas.com',
     siteName: 'The Brand Strategy Canvas',
     type: 'website',
+    images: [
+      {
+        url: '/bsc-preview-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'The Brand Strategy Canvas',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'The Brand Strategy Canvas',
     description: 'A one-page framework for early-stage founders who need brand strategy before brand execution.',
     creator: '@patrickjwoods',
+    images: ['/bsc-preview-image.png'],
   },
 }
 
